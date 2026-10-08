@@ -98,6 +98,11 @@ User   → "Analyze this paragraph and count its words."
 Agent  → [calls text_analyzer("...")] → "Characters: 45 | Words: 8 | Sentences: 1"
 ```
 
+<div align="center">
+  <img src="Task1_Personal_Assistant/chat.png" alt="Task 1 Agent Execution" width="800" style="border-radius: 8px; border: 1px solid #444;" />
+  <p><i>Task 1 Agent successfully utilizing custom tools to parse user requests.</i></p>
+</div>
+
 ---
 
 ## 🧠 Task 2 — SmartStudy Planner (Multi-Agent Workflow)
