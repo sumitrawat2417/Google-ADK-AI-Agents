@@ -289,7 +289,7 @@ I can study for 3 hours per day. Create a preparation plan for me.
 
 ## 📄 License
 
-This project was created as part of the **Google ADK AI Agents Workshop** organized by the IITM community. All custom code is open-source and available for educational use.
+This project was created as an exploration of the **Google ADK (Agent Development Kit)**. All custom code is open-source and available for educational use.
 
 ---
 
