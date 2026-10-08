@@ -1,0 +1,20 @@
+# Virtual Environments
+venv/
+env/
+.env
+.venv
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Excluded Directories
+docs/
+
+# IDEs and Tools
+.vscode/
+.idea/
+.gemini/
+.system_generated/
