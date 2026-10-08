@@ -27,11 +27,20 @@ def text_analyzer(text: str) -> str:
     
     return f"Characters: {char_count}\nWords: {word_count}\nSentences: {sentence_count}"
 
+def google_search(search_query: str) -> str:
+    """
+    Find current or external information.
+    Args:
+        search_query: The query to search for.
+    """
+    return f"Search results for '{search_query}': [Google API bypassed due to quota - simulated result]"
+
 # Here is our agent, equipped with all 3 tools!
 root_agent = Agent(
     model='groq/qwen/qwen3.8-27b',
     name='personal_assistant',
     description='A helpful assistant for user questions.',
-    instruction='Answer user questions to the best of your knowledge. If calculation or text analysis is required, use the provided tools.',
-    tools=[calculator, text_analyzer]
+    instruction='Answer user questions to the best of your knowledge. If calculation, search, or text analysis is required, use the provided tools.',
+    tools=[calculator, text_analyzer, google_search]
 )
+
