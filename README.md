@@ -184,7 +184,7 @@ Create a preparation plan for me.
 ```
 
 <div align="center">
-  <img src="Task2_SmartStudy_Planner/chat.png" alt="Task 2 SmartStudy Planner" width="800" style="border-radius: 8px; border: 1px solid #444;" />
+  <img src="Task2_SmartStudy_Planner/chat_v2.png" alt="Task 2 SmartStudy Planner" width="800" style="border-radius: 8px; border: 1px solid #444;" />
   <p><i>Task 2 Multi-Agent Workflow successfully generating a concise 10-day study plan.</i></p>
 </div>
 
