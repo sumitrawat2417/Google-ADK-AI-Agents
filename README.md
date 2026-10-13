@@ -69,14 +69,14 @@ A versatile, single-agent AI assistant that intelligently selects and invokes cu
               │
               ▼
     ┌─────────────────┐
-    │ Personal        │
-    │ Assistant Agent │
+    │ Personal           │
+    │ Assistant Agent    │
     └────────┬────────┘
-             │
+               │
    ┌─────────┴──────────┐
-   ▼         ▼           ▼
- Google   Calculator  Text Analyzer
- Search   (Custom)     (Custom)
+   ▼          ▼           ▼
+ Google    Calculator  Text Analyzer
+ Search     (Custom)     (Custom)
  (built-in)
 ```
 
