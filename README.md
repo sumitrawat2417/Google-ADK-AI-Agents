@@ -69,8 +69,8 @@ A versatile, single-agent AI assistant that intelligently selects and invokes cu
               │
               ▼
     ┌─────────────────┐
-    │ Personal           │
-    │ Assistant Agent    │
+    │      Personal      │
+    │   Assistant Agent  │
     └────────┬────────┘
                │
    ┌─────────┴──────────┐
@@ -105,7 +105,7 @@ Agent  → [calls text_analyzer("...")] → "Characters: 45 | Words: 8 | Sentenc
 
 ---
 
-## 🧠 Task 2 — SmartStudy Planner (Multi-Agent Workflow)
+## 🧠 Task 2 — Smart Study Planner (Multi-Agent Workflow)
 
 A sophisticated multi-agent orchestration system that generates a personalized 10-day exam preparation plan for any subject. It demonstrates all three core workflow patterns taught in the workshop.
 
@@ -294,5 +294,5 @@ This project was created as an exploration of the **Google ADK (Agent Developmen
 ---
 
 <div align="center">
-  <sub>Built with ❤️ by <a href="https://github.com/sumitrawat2417">Sumit Rawat</a> · Google ADK Workshop 2026</sub>
+  <sub>Built with ❤️ by <a href="https://github.com/sumitrawat2417">Forbit (Sumit Rawat)</a> · Google ADK Workshop 2026</sub>
 </div>
