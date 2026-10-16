@@ -128,31 +128,31 @@ User Input
     │
     ▼
 ┌───────────────────┐
-│  Coordinator      │  ← Parses: Subject, Topics, Level, Days, Hours/day
+│      Coordinator      │ ← Parses: Subject, Topics, Level, Days, Hours/day
 └────────┬──────────┘
-         │ Sequential
-         ▼
+           │ Sequential
+           ▼
 ┌───────────────────┐
-│  Planning Agent   │  ← Structures requirements for parallel analysis
+│  Planning Agent      │  ← Structures requirements for parallel analysis
 └──┬──────┬──────┬──┘
-   │      │      │  Parallel
-   ▼      ▼      ▼
+    │       │       │  Parallel
+   ▼       ▼       ▼
 [Topic] [Practice] [Schedule]    ← All 3 run independently & simultaneously
    │      │      │
    └──────┴──────┘
          │ Merge
          ▼
 ┌───────────────────┐
-│ Study Plan Writer │  ← Aggregates all 3 outputs into one draft
+│ Study Plan Writer    │  ← Aggregates all 3 outputs into one draft
 └────────┬──────────┘
          │
          ▼
 ┌───────────────────┐
-│  Review Agent     │  ← Validates: coverage, time, practice, revision, mock test
+│  Review Agent        │  ← Validates: coverage, time, practice, revision, mock test
 └────────┬──────────┘
          │
     ┌────┴────────────────────┐
-    │ "Needs Improvement"?    │   Loop (max 2 iterations)
+    │ "Needs Improvement"?         │   Loop (max 2 iterations)
     └────────────────────────►─► back to Writer
          │ "APPROVED"
          ▼
